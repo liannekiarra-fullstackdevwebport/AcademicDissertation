@@ -1,3 +1,5 @@
+#this code combines the optimisation algorithm and the nerual networks and gives the output.
+
 from pymoo.core.problem import ElementwiseProblem
 import numpy as np
 from pymoo.core.problem import ElementwiseProblem
