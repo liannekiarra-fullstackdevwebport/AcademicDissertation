@@ -1,4 +1,5 @@
-#this code works
+#this code works and it succesfully combines hte neural networks and the optimisation algorithm.
+
 import numpy as np
 from pymoo.core.problem import ElementwiseProblem
 from pymoo.algorithms.moo.nsga2 import NSGA2
@@ -13,7 +14,7 @@ from pymoo.util.running_metric import RunningMetric as RM
 from pymoo.visualization.scatter import Scatter
 
 
-global nn1
+global nn1 #declaring the neural netowrks as a global variable
 global nn2
 global res_comb
 
@@ -120,7 +121,8 @@ def combine(numberOfCycles):
 
     print("variables")
     print(variables)
-
+    
+    #accessing the nerual networks inside local environment.
     global nn1
     global nn2
     global objectiveArchive
@@ -323,9 +325,6 @@ def combine(numberOfCycles):
     )
     for algorithm in res_comb.history:
         running.notify(algorithm)
-
-
-
 
 
 def originalObjectiveFunction(x):
