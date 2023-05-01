@@ -1,3 +1,6 @@
+#this code mainly focuses on exploring the NSGA2 and this code was part of the research work on how to define the problems for the NSGA2 
+#to be used via Pymoo. This structure is used in all the workable code for neural networks to be built and train.
+
 import numpy as np
 from pymoo.core.problem import ElementwiseProblem
 import numpy as np
