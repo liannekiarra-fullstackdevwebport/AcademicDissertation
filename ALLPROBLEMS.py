@@ -1,10 +1,5 @@
 import numpy as np
 
-
-
-
-
-
 class RE91():
     def __init__(self):
         self.problem_name = 'RE91'
