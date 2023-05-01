@@ -195,11 +195,7 @@ def combine():
     global nn2
     global nn3
     global nn4
-    global nn5
-    global nn6
-    global nn7
-    global nn8
-    global nn9
+    
 
     testProblem = RE42RandomiseData()
     #get data from NSGA2
