@@ -1,5 +1,5 @@
 """"This code in for RE91 it due ot a high number of objectives, it cannot easily access and store the values
-from the objective archive, resulting to a high computation time for each combination iteration"""
+from the objective archive, resulting to a high computation time for each combination iteration. """
 
 import numpy as np
 from pymoo.core.problem import ElementwiseProblem
