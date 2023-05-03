@@ -372,5 +372,5 @@ def realObjectiveFunctionValues(variablevalues):
 
 
 
-combine()
+combine() #add parameters before running ex. 1000, 1200 etc.
 
